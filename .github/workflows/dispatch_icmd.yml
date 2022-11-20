@@ -1,0 +1,12 @@
+name: Dispatch ICMD Platform
+on:
+  release:
+    types: [ published ]
+
+jobs:
+  dispatch:
+    name: Dispatch ICMD Platform
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print
+        run: echo Successful!
