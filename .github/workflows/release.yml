@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - main
-    path:
-      - !.github
+    paths:
+      - '!.github/**'
 
 jobs:
   release:
